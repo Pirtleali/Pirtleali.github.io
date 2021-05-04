@@ -17,10 +17,13 @@ body {
     direction: ltr;
 }
 
-main {
+.container {
     max-width: 680px;
     margin:0 auto;
-    padding:24px 28px;
+}
+
+main {
+    padding:24x 28px
 }
 
 h1 {
