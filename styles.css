@@ -23,6 +23,7 @@ main {
 
 h1 {
     margin-top: 24px;
+    margin-bottom: 0px;
     /*color: white;*/
     color: #304248;
     font-size: 64px;
