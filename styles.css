@@ -3,8 +3,8 @@ html, body {
 }
 
 body {
-    background-color: #7FB1C1;
-    color: white;
+    background-color: #AAF8BD;
+    color: #D4FBDE;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -30,14 +30,14 @@ h1 {
     margin-top: 24px;
     margin-bottom: 0px;
     /*color: white;*/
-    color: #304248;
+    color: #2B3E2F;
     font-size: 64px;
     font-weight: 500;
     line-height: 1.2;
 }
 
 .statement {
-    color: #304248;
+    color: #2B3E2F;
     font-size: 24px;
     font-weight: 300;
 }
@@ -46,7 +46,7 @@ h1 {
     margin-top: 24;
     line-height; 30px;
     /*background: #5691A3;*/
-    background: #4F6F79;
+    background: #557C5F;
     border-radius: 8px;
     padding: 24px;
 }
@@ -59,25 +59,24 @@ h1 {
 }
 
 .card {
-    color: #BFD8E0;
     height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #4F6F79;
+    background: #557C5F;
     border-radius: 8px;
 }
 
 .card:hover {
-    background: #304248;
+    background: #405D47;
 }
 
 .card:hover svg {
-    fill: #DFEBF0;
+    fill: #DFFCE6;
 }
 
 .card svg {
-    fill: #BFD8E0;
+    fill: #D4FBDE;
     width: 64px;
 }
 
