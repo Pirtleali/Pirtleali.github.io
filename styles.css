@@ -17,7 +17,7 @@ body {
     direction: ltr;
 }
 
-.app {
+.container {
     max-width: 680px;
     margin:0 auto;
 }
