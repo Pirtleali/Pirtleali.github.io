@@ -5,6 +5,13 @@
     --card-background-color: #557C5F;
     --card-hover-background-color: #405D47;
     --card-hover-contents-color: #DFFCE6;
+    --highlight-color: #2B3E2F;
+    --highlight-background-color: #F4FEF7;
+}
+
+::selection {
+    color: var(--highlight-color);
+    background: var(--highlight-background-color);
 }
 
 html, body {
