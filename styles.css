@@ -9,6 +9,17 @@
     --highlight-background-color: #F4FEF7;
 }
 
+.pink-theme {
+    --bg-color: #FFBDC2;
+    --title-color: #402729;
+    --card-contents-color: #FFFFFF;
+    --card-background-color: #9F6266;
+    --card-hover-background-color: #402729;
+    --card-hover-contents-color: #FFE9EA;
+    --highlight-color: #FFFFFF;
+    --highlight-background-color: #804E52;
+}
+
 ::selection {
     color: var(--highlight-color);
     background: var(--highlight-background-color);

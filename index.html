@@ -58,5 +58,20 @@
                 </div>
             </main>
         </div>
+        <script>
+            function setTheme(name) {
+                document.documentElement.className = name;
+            }
+            function getRandomInt(max) {
+                return Math.floor(Math.random() * max);
+            }
+
+            (function () {
+                let themes = ["mint-theme", "pink-theme"];
+                let themeId = getRandomInt(themes.length);
+
+                setTheme(themes[themeId]);
+            })();
+        </script>
     </body>
 </html>
