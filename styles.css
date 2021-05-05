@@ -1,10 +1,21 @@
+.mint-theme {
+    --bg-color: #AAF8BD;
+    --title-color: #2B3E2F;
+    --card-contents-color: #D4FBDE;
+    --card-background-color: #557C5F;
+    --card-hover-background-color: #405D47;
+    --card-hover-contents-color: #DFFCE6;
+}
+
 html, body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 body {
     background-color: #AAF8BD;
+    background-color: var(--bg-color);
     color: #D4FBDE;
+    color: var(--card-contents-color);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -31,6 +42,7 @@ h1 {
     margin-bottom: 0px;
     /*color: white;*/
     color: #2B3E2F;
+    color: var(--title-color);
     font-size: 64px;
     font-weight: 500;
     line-height: 1.2;
@@ -38,6 +50,7 @@ h1 {
 
 .statement {
     color: #2B3E2F;
+    color: var(--title-color);
     font-size: 24px;
     font-weight: 300;
 }
@@ -47,6 +60,7 @@ h1 {
     line-height; 30px;
     /*background: #5691A3;*/
     background: #557C5F;
+    background: var(--card-background-color);
     border-radius: 8px;
     padding: 24px;
 }
@@ -64,19 +78,23 @@ h1 {
     justify-content: center;
     align-items: center;
     background: #557C5F;
+    background: var(--card-background-color);
     border-radius: 8px;
 }
 
 .card:hover {
     background: #405D47;
+    background: var(--card-hover-background-color);
 }
 
 .card:hover svg {
     fill: #DFFCE6;
+    fill: var(--card-hover-contents-color);
 }
 
 .card svg {
     fill: #D4FBDE;
+    fill: var(--card-contents-color);
     width: 64px;
 }
 
