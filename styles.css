@@ -1,10 +1,10 @@
 .dark-theme {
-    --bg-color: #0F0F0F;
-    --title-color: #A9A9A9;
-    --card-contents-color: #0F0F0F;
-    --card-background-color: #A9A9A9;
-    --card-hover-background-color: #1D1D1D;
-    --card-hover-contents-color: #DCDCDC;
+    --bg-color: #0E1013;
+    --title-color: #BDC1C6;
+    --card-contents-color: #0E1013;
+    --card-background-color: #80868B;
+    --card-hover-background-color: #17181B;
+    --card-hover-contents-color: #F1F3F4;
     --highlight-color: #000000;
     --highlight-background-color: #FFFFFF;
 }
