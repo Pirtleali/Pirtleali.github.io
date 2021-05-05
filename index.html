@@ -70,10 +70,13 @@
             }
 
             (function () {
-                let themes = ["mint-theme", "pink-theme"];
+                let themes = ["mint-theme", "pink-theme", "purple-theme"];
                 let themeId = getRandomInt(themes.length);
 
                 setTheme(themes[themeId]);
+                if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    setTheme("dark-theme");
+                }
             })();
         </script>
     </body>

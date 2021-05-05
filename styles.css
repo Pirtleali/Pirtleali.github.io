@@ -1,3 +1,25 @@
+.dark-theme {
+    --bg-color: #0F0F0F;
+    --title-color: #A9A9A9;
+    --card-contents-color: #0F0F0F;
+    --card-background-color: #A9A9A9;
+    --card-hover-background-color: #1D1D1D;
+    --card-hover-contents-color: #DCDCDC;
+    --highlight-color: #000000;
+    --highlight-background-color: #FFFFFF;
+}
+
+.purple-theme {
+    --bg-color: #B8BDFF;
+    --title-color: #454760;
+    --card-contents-color: #EEEFFF;
+    --card-background-color: #5C5F80;
+    --card-hover-background-color: #2E2F40;
+    --card-hover-contents-color: #F9FAFF;
+    --highlight-color: #454760;
+    --highlight-background-color: #F9FAFF;
+}
+
 .mint-theme {
     --bg-color: #AAF8BD;
     --title-color: #2B3E2F;
