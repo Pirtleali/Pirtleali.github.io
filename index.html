@@ -19,9 +19,11 @@
                 <p class="statement">
                 I'm a self-motivated college graduate located near Atlanta, Georgia.
                 </p>
+                <!--
                 <div class="introduction">
                     I have a bachelor's degree in Human Development and I'm currently pursuing a career in Human Resources.
                 </div>
+                -->
                 <div class="cards">
                     <a class="link" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#105;&#114;&#116;&#108;&#101;&#97;&#108;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" title="Email">
                         <div class="card email">
@@ -71,6 +73,7 @@
             (function () {
                 let themes = ["mint-theme", "pink-theme", "purple-theme"];
                 let themeId = getRandomInt(themes.length);
+                console.log(themeId);
 
                 setTheme(themes[themeId]);
                 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
